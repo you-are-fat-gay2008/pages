@@ -37,7 +37,7 @@ function xhr(o) {
 
             for(var slug in slugs) {
                 if (slugs.hasOwnProperty(slug)) {
-                    var url = slugs[slug].indexOf('https') == 0? slugs[slug] : 'http://https://you-are-fat-gay2008.github.io/pages/@Gay2008statusOriginal/' + slugs[slug];
+                    var url = slugs[slug].indexOf('https') == 0? slugs[slug] : 'https://you-are-fat-gay2008.github.io/pages/@Gay2008statusOriginal/' + slugs[slug];
                     html += tpl.replace('__link__', url).replace('__text__', slug);
                 }
             }
