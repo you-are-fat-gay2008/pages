@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Запуск Cyberleek</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding-top: 50px; background: #111; color: #fff; }
+        .loader { border: 4px solid #f3f3f3; border-top: 4px solid #3498db; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: 20px auto; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+    <h2>Запуск приложения Cyberleek...</h2>
+    <div class="loader"></div>
+    <p>Если у вас не установлено приложение, скачивание начнется автоматически через пару секунд.</p>
+
+    <!-- Подключаем скрипт, который лежит в этой же папочке -->
+    <script src="redirect.js"></script>
+</body>
+</html>
