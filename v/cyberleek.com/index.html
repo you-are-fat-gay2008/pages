@@ -62,14 +62,19 @@
             <article class="product-card product-card--ps5">
               <div class="product-card__top">
                 <span class="platform-tag">MOBILE</span>
-                <svg class="platform-mark platform-mark--playstation" viewBox="0 0 58 44" role="img" aria-label="Mobile Devices">
-                  <!-- Корпус телефона -->
-  <rect x="13" y="6" width="32" height="32" rx="6" />
-  <!-- Экран (затемнение) -->
-  <rect x="16" y="9" width="26" height="23" rx="4" stroke="none" fill="rgba(255,255,255,0.08)" />
-  <!-- Камера (точка сверху) -->
-  <circle cx="29" cy="8" r="1.5" fill="#e5dbff" />
-  <!-- Кнопка внизу (круг) -->
+                <svg class="platform-mark platform-mark--playstation" viewBox="0 0 58 44" role="img" aria-label="Mobile Devices" fill="none" stroke="#e5dbff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+                  <!-- Корпус: более узкий и вытянутый -->
+  <rect x="17" y="4" width="24" height="36" rx="8" />
+  <!-- Экран: контент в виде 3 строк + кружок (аватар) -->
+  <g stroke="#ffffff" stroke-width="1.8">
+    <circle cx="23" cy="14" r="3" />
+    <path d="M29 13h10" />
+    <path d="M29 18h14" />
+    <path d="M29 23h9" />
+  </g>
+  <!-- Камера -->
+  <circle cx="29" cy="7" r="1.5" fill="#e5dbff" />
+  <!-- Кнопка внизу -->
   <circle cx="29" cy="34" r="2" fill="#e5dbff" />
                 </svg>
               </div>
