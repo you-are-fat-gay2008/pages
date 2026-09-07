@@ -214,6 +214,10 @@ button{
     --accent: #9b4aff;
     --accent-rgb: 155, 74, 255
 }
+.product-card--mobile{
+    --accent: #9b4aff;
+    --accent-rgb: 155, 74, 255
+}
 .product-card__top{
     display:flex;
     align-items:center;
