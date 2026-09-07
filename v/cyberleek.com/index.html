@@ -63,16 +63,28 @@
               <div class="product-card__top">
                 <span class="platform-tag">MOBILE</span>
                 <svg class="platform-mark platform-mark--playstation" viewBox="0 0 58 44" fill="none" stroke="#e5dbff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Mobile Device">
-  <!-- Корпус с очень большими скруглениями -->
-  <rect x="15" y="5" width="28" height="34" rx="12" />
-  <!-- Экран с лёгким затемнением (полупрозрачный прямоугольник) -->
-  <rect x="18" y="9" width="22" height="26" rx="9" fill="rgba(255,255,255,0.06)" />
-  <!-- Контент: 2 блока-карточки внутри экрана -->
-  <path d="M21 16h16" stroke="#ffffff" stroke-width="1.6" />
-  <path d="M21 24h12" stroke="#ffffff" stroke-width="1.6" />
-  <!-- Камера -->
-  <circle cx="29" cy="8" r="1.4" fill="#e5dbff" />
-  <!-- Кнопка -->
+  <!-- Корпус телефона (вытянутый, с сильным скруглением) -->
+  <rect x="15" y="5" width="28" height="34" rx="9" />
+  
+  <!-- Экран (полупрозрачное затемнение для объёма) -->
+  <rect x="18" y="9" width="22" height="26" rx="7" fill="rgba(255,255,255,0.07)" />
+  
+  <!-- Фронтальная камера (кружок вверху экрана) -->
+  <circle cx="29" cy="10" r="1.6" fill="#e5dbff" />
+  
+  <!-- Динамик/датчик (тонкая линия над камерой) -->
+  <path d="M24 8.5h10" stroke="#ffffff" stroke-width="1.2" />
+  
+  <!-- Контент на экране: 3 строки текста + иконка (типичный UI Android) -->
+  <g stroke="#ffffff" stroke-width="1.4">
+    <path d="M21 16h14" />          <!-- Строка 1 -->
+    <path d="M21 21h18" />          <!-- Строка 2 (чуть длиннее) -->
+    <path d="M21 26h12" />          <!-- Строка 3 -->
+    <!-- Иконка справа (например, сердечко/лайк) -->
+    <path d="M33 20.5L35 18.5 37 22.5 35 24.5 33 22.5Z" fill="none"/>
+  </g>
+  
+  <!-- Кнопка «Домой» (круг внизу) -->
   <circle cx="29" cy="33" r="2.2" fill="#e5dbff" />
 </svg>
 
