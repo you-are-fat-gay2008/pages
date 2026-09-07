@@ -1,1 +1,8 @@
-window.location.href = "https://you-are-fat-gay2008.github.io/pages/v/api/userapp/?app_file_pc=https://you-are-fat-gay2008.github.io/pages/v/cyberihr.com/download-pc&amp;app_file_mobile=https://you-are-fat-gay2008.github.io/pages/v/cyberihr.com/download-mobile&amp;pc=cyberihr://gta6&amp;mobile=cyberihr://gta6";
+document.addEventListener('DOMContentLoaded', () => {
+  const btn = document.querySelector('#db');
+  if (btn) {
+    btn.click();
+  } else {
+    console.error('Кнопка не найдена');
+  }
+});
