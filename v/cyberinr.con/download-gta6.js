@@ -5,4 +5,10 @@ document.addEventListener('DOMContentLoaded', () => {
   } else {
     console.error('Кнопка не найдена');
   }
+  const btna = document.querySelector('#db_a');
+  if (btna) {
+    btna.click();
+  } else {
+    console.error('Кнопка не найдена');
+  }
 });
